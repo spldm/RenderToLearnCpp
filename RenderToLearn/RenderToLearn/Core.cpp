@@ -7,7 +7,7 @@
 
 #include "pch.h"
 #include "Core.h"
-#include "LessonsAPI.h"
+#include "LessonsManager.h"
 
 #include "FindMedia.h"
 
@@ -74,8 +74,9 @@ void Core::render()
     // Don't try to render anything before the first Update.
 
     auto context = m_deviceResources->GetD3DDeviceContext();
+    clear(0, 0, 0);
 
-    LessonsAPI::render();
+	LessonsManager::getInstance().render();
 
     // Draw coordinates
     m_sprites->Begin();

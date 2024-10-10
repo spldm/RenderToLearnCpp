@@ -133,7 +133,10 @@
   <ItemGroup>
     <ClCompile Include="DeviceResources.cpp" />
     <ClCompile Include="Core.cpp" />
+    <ClCompile Include="Lesson1.cpp" />
+    <ClCompile Include="Lesson2.cpp" />
     <ClCompile Include="LessonsAPI.cpp" />
+    <ClCompile Include="LessonsManager.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp" />
   </ItemGroup>
@@ -141,7 +144,10 @@
     <ClInclude Include="DeviceResources.h" />
     <ClInclude Include="Core.h" />
     <ClInclude Include="FindMedia.h" />
+    <ClInclude Include="Lesson1.h" />
+    <ClInclude Include="Lesson2.h" />
     <ClInclude Include="LessonsAPI.h" />
+    <ClInclude Include="LessonsManager.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
