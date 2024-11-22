@@ -133,6 +133,7 @@
   <ItemGroup>
     <ClCompile Include="DeviceResources.cpp" />
     <ClCompile Include="Core.cpp" />
+    <ClCompile Include="Helper.cpp" />
     <ClCompile Include="Lesson01.cpp" />
     <ClCompile Include="Lesson02.cpp" />
     <ClCompile Include="APILesson01.cpp" />
@@ -141,9 +142,11 @@
     <ClCompile Include="pch.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="APILesson02.h" />
     <ClInclude Include="DeviceResources.h" />
     <ClInclude Include="Core.h" />
     <ClInclude Include="FindMedia.h" />
+    <ClInclude Include="Helper.h" />
     <ClInclude Include="Lesson01.h" />
     <ClInclude Include="Lesson02.h" />
     <ClInclude Include="APILesson01.h" />

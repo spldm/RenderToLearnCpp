@@ -1,5 +1,6 @@
 #include "Lesson02.h"
-
+#include "APILesson01.h"
+using namespace APILesson01;
 // Learning:
 // Basic math: plus, minus, multiply, divide
 // 
@@ -12,5 +13,6 @@
 // 4. Align all squares to the bottom edge.
 
 
-void Lesson02::render(int x, int y, int width) {
+void Lesson02::render(int x, int y, int width, int height) {
+	drawLine(x, y, x + width, y + height);
 }

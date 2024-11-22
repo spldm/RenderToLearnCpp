@@ -10,6 +10,7 @@
 #include "LessonsManager.h"
 
 #include "FindMedia.h"
+#include <time.h>
 
 extern void ExitSample() noexcept;
 
@@ -31,6 +32,8 @@ Core::Core() noexcept(false)
 // Initialize the Direct3D resources required to run.
 void Core::initialize(HWND window, int width, int height)
 {
+    srand(time(0));
+
     m_keyboard = std::make_unique<Keyboard>();
 
     m_mouse = std::make_unique<Mouse>();
