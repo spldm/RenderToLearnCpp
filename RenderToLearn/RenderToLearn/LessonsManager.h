@@ -1,6 +1,6 @@
 #pragma once
-#include "Lesson1.h"
-#include "Lesson2.h"
+#include "Lesson01.h"
+#include "Lesson02.h"
 
 class LessonsManager {
 public:
@@ -11,8 +11,8 @@ public:
 
 	void render();
 private:
-	Lesson1 lesson1;
-	Lesson2 lesson2;
+	Lesson01 lesson01;
+	Lesson02 lesson02;
 
 	LessonsManager() = default;
 	~LessonsManager() = default;
@@ -23,7 +23,7 @@ private:
 	LessonsManager(LessonsManager const&) = delete;
 	LessonsManager& operator= (LessonsManager const&) = delete;
 
-	void renderLesson1();
-	void renderLesson2();
+	void renderLesson01();
+	void renderLesson02();
 };
 

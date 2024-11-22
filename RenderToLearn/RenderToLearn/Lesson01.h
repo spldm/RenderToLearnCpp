@@ -1,6 +1,6 @@
 #pragma once
 
-class Lesson1 {
+class Lesson01 {
 public:
 	void render();
 };

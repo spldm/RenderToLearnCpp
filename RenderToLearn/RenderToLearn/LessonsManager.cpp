@@ -1,14 +1,14 @@
 #include "LessonsManager.h"
 
 void LessonsManager::render() {
-	renderLesson1();
-	//renderLesson2();
+	renderLesson01();
+	//renderLesson02();
 }
 
-void LessonsManager::renderLesson1() {
-	lesson1.render();
+void LessonsManager::renderLesson01() {
+	lesson01.render();
 }
 
-void LessonsManager::renderLesson2() {
-	lesson2.render();
+void LessonsManager::renderLesson02() {
+	//lesson02.render();
 }

@@ -1,4 +1,4 @@
-#include "Lesson2.h"
+#include "Lesson02.h"
 
 // Learning:
 // Basic math: plus, minus, multiply, divide
@@ -12,5 +12,5 @@
 // 4. Align all squares to the bottom edge.
 
 
-void Lesson2::render(int x, int y, int width) {
+void Lesson02::render(int x, int y, int width) {
 }

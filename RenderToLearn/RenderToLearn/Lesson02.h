@@ -1,5 +1,5 @@
 #pragma once
-class Lesson2 {
+class Lesson02 {
 public:
 	void render(int x, int y, int width);
 };

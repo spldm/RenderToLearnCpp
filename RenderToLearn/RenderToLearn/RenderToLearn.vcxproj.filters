@@ -27,13 +27,13 @@
     <ClCompile Include="Core.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LessonsAPI.cpp">
+    <ClCompile Include="APILesson01.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson1.cpp">
+    <ClCompile Include="Lesson01.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson2.cpp">
+    <ClCompile Include="Lesson02.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="LessonsManager.cpp">
@@ -53,13 +53,13 @@
     <ClInclude Include="FindMedia.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LessonsAPI.h">
+    <ClInclude Include="APILesson01.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson1.h">
+    <ClInclude Include="Lesson01.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Lesson2.h">
+    <ClInclude Include="Lesson02.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LessonsManager.h">
