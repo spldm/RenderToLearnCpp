@@ -131,6 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="APILesson02.cpp" />
     <ClCompile Include="DeviceResources.cpp" />
     <ClCompile Include="Core.cpp" />
     <ClCompile Include="Helper.cpp" />

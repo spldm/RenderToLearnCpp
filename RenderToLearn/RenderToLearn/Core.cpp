@@ -53,6 +53,8 @@ void Core::initialize(HWND window, int width, int height)
     auto context = m_deviceResources->GetD3DDeviceContext();
     auto viewport = m_deviceResources->GetScreenViewport();
     context->RSSetViewports(1, &viewport);
+
+    LessonsManager::getInstance().setCore(this);
 }
 
 void Core::tick()

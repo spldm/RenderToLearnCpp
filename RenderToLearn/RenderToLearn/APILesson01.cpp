@@ -2,8 +2,6 @@
 #include "pch.h"
 #include "Core.h"
 
-#include "Lesson01.h"
-
 void APILesson01::clear(float r, float g, float b) {
 	Core::getInstance().clear(r, g, b);
 }
