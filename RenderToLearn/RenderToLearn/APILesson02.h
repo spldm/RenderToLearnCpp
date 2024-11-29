@@ -11,6 +11,14 @@
 // 7. Add the same bool parameter for renderRectangle
 // 8. Rewrite renderSquare using renderRectangle.
 // 9. Rename renderSquare to renderRectangle
+
+// Lesson 2.1 Creating functions.
+// 1. Create function renderSquare with parameters x(left point), y(top point), width
+// 2. Create function renderRectangle with parameters x, y, width, height
+// 3. Create function renderSquareCentered with x, y - center, width
+// 4. Rewrite renderSquare and renderSquareCentered using renderRectangle.
+// 4. Rename renderSquare to renderRectangle
+
 // Homework: create function which render two concentric rectangles, parameters: 
 //	  int x, int y, int width(size for the first square), float multipler(multiplier for size for the second square)
 //	  Render three pairs of concentric rectangles using this function with same distances between them and screen edges
