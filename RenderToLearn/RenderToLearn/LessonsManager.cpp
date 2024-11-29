@@ -1,5 +1,8 @@
 #include "LessonsManager.h"
-#include "Helper.h"
+
+LessonsManager::LessonsManager() {
+	pCore = 0;
+}
 
 void LessonsManager::render() {
 	//renderLesson01();
@@ -11,9 +14,6 @@ void LessonsManager::renderLesson01() {
 }
 
 void LessonsManager::renderLesson02() {	
-	static int x = Helper::getRandomInt(400, 600);
-	static int y = Helper::getRandomInt(300, 400);
-	static int width = Helper::getRandomInt(20, 400);
-	static int height = Helper::getRandomInt(20, 300);
-	lesson02.render(x, y, width, height);
+	helper02.render(pCore);
+	lesson02.render(helper02.x, helper02.y, helper02.width, helper02.height);
 }

@@ -36,6 +36,9 @@ public:
 
     void clear(float r, float g, float b);
     void drawLine(XMFLOAT2 pos1, XMFLOAT2 pos2, XMFLOAT4 color);
+
+    SpriteBatch* getSpritesBatch() { return m_sprites.get(); }
+    SpriteFont* getFont() { return m_font.get(); }
 private:
     Core() noexcept(false);
     ~Core() = default;

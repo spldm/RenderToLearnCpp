@@ -1,6 +1,6 @@
 #include "Lesson02.h"
-#include "APILesson01.h"
-using namespace APILesson01;
+#include "APILesson02.h"
+
 // Learning:
 // Basic math: plus, minus, multiply, divide
 // 
